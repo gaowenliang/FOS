@@ -12,3 +12,9 @@ Usage
 
 Contribution
 ========
+
+Development
+========
+Construct basic agreements.
+
+Define System model.
