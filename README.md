@@ -6,9 +6,9 @@ Forest Operating System(FOS)
 
 Document
 ========
-[EN:](..\Document\EN "EN")
+[EN:](Document/EN "EN")
 
-[SystemModel](..\Document\EN\SystemModel )
+[SystemModel](Document/EN/SystemModel )
 
 Usage
 ========
