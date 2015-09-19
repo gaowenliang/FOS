@@ -6,9 +6,13 @@ Forest Operating System(FOS)
 
 Document
 ========
-[EN:](Document/EN "EN")
+EN
 
-[SystemModel](Document/EN/SystemModel )
+[SystemModel](Document/EN/SystemModel.md)
+
+CN
+
+[系统模型]()
 
 Usage
 ========
