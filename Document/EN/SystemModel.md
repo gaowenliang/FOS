@@ -8,7 +8,17 @@ It is contructed form hardware level, to application level.
 #Computing Node
 ##Brief
 ##Model
+###firmware model
+
 ![](img/ComputingNode.jpg)
+
+###Data stream model
+
+![](img/ComputingNode2.jpg)
+
+###Network model
+
+![](img/ComputingNode3.jpg)
 
 #Memory Management Unit (MMU)
 
