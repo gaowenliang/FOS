@@ -13,7 +13,7 @@ is a robot operating system which is design for UAV's group control.
 
 ##CN
 
-[系统模型]()
+[系统模型](Document/CN/SystemModel.md)
 
 #Usage
 
