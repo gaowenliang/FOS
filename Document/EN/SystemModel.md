@@ -39,7 +39,7 @@ MMU's I/O is mulitable,
 
 #Linker
 ##Brief
-Linker is
+Linker is a specific data stack, which is used to share data between two different computing node.
 ##Model
 
 #Data stacks
