@@ -1,14 +1,14 @@
 #Abstract
 
 Forest Operating System (FOS) is a concurrently, distributed, 
-cuttable, real-time operating system framwork.
+cuttable, real-time operating system framework.
 
 It is contructed form hardware level, to application level.
 
 #Computing Node
 ##Brief
 ##Model
-###firmware model
+###Firmware model
 
 ![](img/ComputingNode.jpg)
 
@@ -39,6 +39,7 @@ MMU's I/O is mulitable,
 
 #Linker
 ##Brief
+Linker is
 ##Model
 
 #Data stacks
