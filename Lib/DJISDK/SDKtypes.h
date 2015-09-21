@@ -50,6 +50,32 @@ typedef Data12B  Gimbal;
 typedef uint8_t  Status;
 typedef uint8_t  Battery;
 typedef uint8_t  Device;
+
+typedef uint8_t Flag;
+typedef uint8_t IsEncode;
+typedef uint8_t CommandSet;
+typedef uint8_t CommandID;
+
+typedef struct Header
+{
+    unsigned int sof : 8; 			// 1byte
+    unsigned int length : 10;
+    unsigned int version : 6; 		// 2byte
+    unsigned int session_id : 5;
+    unsigned int is_ack : 1;
+    unsigned int reversed0 : 2; 	// always 0
+
+    unsigned int padding : 5;
+    unsigned int enc_type : 3;
+    unsigned int reversed1 : 24;
+
+    unsigned int sequence_number : 16;
+    unsigned int head_crc : 16;
+    //unsigned int magic[0];
+}Header;
+
+typedef void (*ACK_Callback_Func)(Header *pHeader);
+
 typedef struct
 {
     Time         timeStamp;

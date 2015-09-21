@@ -13,6 +13,9 @@ public:
      * */
     OnboardSDK();
 
+    /*! @code Get data
+     *
+     * */
     Time getQuaternion(Quaternion &q);
     Time getAcceleration(Acceleration &a);
     Time getVelocity(Velocity &v);
@@ -25,6 +28,11 @@ public:
     Time getBattery(Battery &b);
     Time getDevice(Device &d);
 
+    /*! @code send command
+     *
+     * */
+
+    bool sendCommand(Flag f,IsEncode enc,CommandSet set,CommandID id,uint8_t* dataPtr,size_t len,ACK_Callback_Func fun,Time timeout,int retry);
 
 public:
     /*! @code Thread build up
