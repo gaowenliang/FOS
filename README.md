@@ -20,6 +20,9 @@ is a robot operating system which is design for UAV's group control.
 #Contribution
 
 #Development
+##Target
 Construct basic agreements.
 
 Define System model.
+##Join us
+[Needs to know](needsToKnow.md)

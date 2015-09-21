@@ -20,6 +20,10 @@ It is contructed form hardware level, to application level.
 
 ![](img/ComputingNode3.jpg)
 
+##Future
+Maybe we could actrualize a number of full-functional computing nodes group in a FPGA or ASIC by using open-source project [RISC-V](riscv.org)
+ 
+
 #Memory Management Unit (MMU)
 
 ##Brief
@@ -30,6 +34,7 @@ a hard implementation or a mixed implementation.
 In order to actrualize this unit easily, 
 
 MMU's I/O is mulitable,
+
 
 ##Model
 
