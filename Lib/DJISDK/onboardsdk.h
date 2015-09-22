@@ -31,9 +31,10 @@ public:
     /*! @code send command
      *
      * */
+protected:
+    void sendCommand(Flag f,IsEncode enc,CommandSet set,CommandID id,uint8_t* dataPtr,size_t len,ACK_Callback_Func fun,Time timeout,int retry);//! @todo simplify
 
-    bool sendCommand(Flag f,IsEncode enc,CommandSet set,CommandID id,uint8_t* dataPtr,size_t len,ACK_Callback_Func fun,Time timeout,int retry);//! @todo simplify
-
+    //! @endcode API interface
 public:
     /*! @code Thread build up
      *
@@ -41,17 +42,23 @@ public:
     void sendThread();
     void recvThread();
     void pollThread();
-
+    //! @endcode Thread build up
 private:
     /*! @code private function
      *
      * */
 
 
+    //! @endcode private function
 protected:
+    /*! @code Basic I/O
+     *
+     * */
     virtual bool putChar(uint8_t &data) = 0;
     virtual bool getChar(uint8_t &data) = 0;
     virtual Time getTime();
+
+    //! @endcode Basic I/O
 
 private:
     Data data;

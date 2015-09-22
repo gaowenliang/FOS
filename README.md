@@ -11,6 +11,10 @@ is a robot operating system which is design for UAV's group control.
 
 [QuickStart](Document/EN/QuickStart.md)
 
+[Libs](Document/EN/Libs.md)
+
+[Tools](Document/EN/Tools.md)
+
 ##CN
 
 [系统模型](Document/CN/SystemModel.md)
