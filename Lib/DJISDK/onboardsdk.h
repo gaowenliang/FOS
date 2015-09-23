@@ -56,7 +56,7 @@ protected:
      * */
     virtual bool putChar(uint8_t &data) = 0;
     virtual bool getChar(uint8_t &data) = 0;
-    virtual Time getTime();
+    virtual Time getTime() = 0;
 
     //! @endcode Basic I/O
 
