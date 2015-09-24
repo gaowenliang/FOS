@@ -95,7 +95,16 @@ Or in real world it seems like:
 ##Problem Model
 ![](img/Group1.jpg)
 
+this problem is to consider about a group of UAVs,need to form a queue, a rectangle, a triangle or other geometries.
+
+consider the number of UAVs is unknow, this problem will be a complex issues.
+
 ##Basic Model
+
+For now, I just design a model to describe a controller with two UAVs.
+
+Suppose one UAV can move as wanted. I need two UAVs control each self without third party's interference.
+
 ##Promotion
 
 <p  id="4">
